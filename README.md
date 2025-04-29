@@ -1,2 +1,33 @@
-# Legal-Document-Analysis-and-Automated-Contract-Generation-Using-AI
-Analyzing legal documents requires to maintain high precision, as even minor errors can result in severe consequences. Legal documents are usually large in volume and have repetitive nature that make manual analysis tedious and prone to mistake.
+# Legal-chatbot
+
+The legal-chatbot is developed to help users analyze their documents and generate contracts. It uses Cohere API currently for analyzing any document and generating three types of contracts:
+
+- employee contracts
+- sales contracts
+- service contracts
+
+## To run chatbot
+
+- Clone the repository
+
+```
+git clone https://github.com/YaredAlex/Legal-chatbot.git
+```
+
+- Install dependencies
+
+```
+pip install -r requirements.txt
+```
+
+- Create .env file and save your API key
+
+```
+COHERE_API_KEY=YOUR_KEY
+```
+
+- Run flask app
+
+```
+python app.py
+```

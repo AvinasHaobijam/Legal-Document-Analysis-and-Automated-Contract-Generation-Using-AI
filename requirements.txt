@@ -1,0 +1,18 @@
+langchain-core
+langgraph
+# LangChain integrations
+langchain-community
+langchain-huggingface
+langchain-cohere
+# Vector storage
+faiss-cpu
+# Utilities
+uuid
+flask
+reportlab
+google-generativeai
+pytesseract 
+pillow
+PyPDF2
+docx2txt 
+textract
